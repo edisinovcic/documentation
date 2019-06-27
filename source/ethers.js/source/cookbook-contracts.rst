@@ -24,7 +24,7 @@ Using events, we can simulate a return value from a non-constant function.
 
         function increment() returns (uint256 sum) {
             _accum++;
-            Returns(_accum);
+            Return(_accum);
         }
     }
 
